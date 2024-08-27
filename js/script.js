@@ -175,12 +175,12 @@ function maximizeWindow(e) {
   }
 }
 
+
 // Last window on top
 const projects = document.getElementById("projects-container");
 const cmd = document.getElementById("cmd-container");
 const network = document.getElementById("network-container");
 const browser = document.getElementById("browser-container");
-const guestbook = document.getElementById("guestbook-container");
 
 let baseZIndex = 1;
 let tempElement;
@@ -197,7 +197,6 @@ projects.addEventListener("mousedown", () => windowOnTop(projects));
 cmd.addEventListener("mousedown", () => windowOnTop(cmd));
 network.addEventListener("mousedown", () => windowOnTop(network));
 browser.addEventListener("mousedown", () => windowOnTop(browser));
-guestbook.addEventListener("mousedown", () => windowOnTop(guestbook));
 
 // Double click icon
 let clickTimeout,
