@@ -170,7 +170,7 @@ html {
   float: left;
   font-size: 22px;
   line-height: 22px;
-  font-weight: bold;
+  font-weight: 600;
   font-style: italic;
   background: radial-gradient(circle, var(--button-bg-start) 0%, var(--button-bg-end) 100%) center/cover no-repeat;
   box-shadow: 0px 5px 10px #79ce71 inset, 4px 0 8px var(--secondary-blue);
