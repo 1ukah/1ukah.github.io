@@ -134,9 +134,8 @@ html {
   margin-bottom: 10px;
 }
 
-/* Browser and Guestbook Container Styles */
-#browser-container .window-body,
-#guestbook-container .window-body {
+/* Browser Container Styles */
+#browser-container .window-body {
   margin: 0;
   padding: 0;
   display: flex;
@@ -170,7 +169,7 @@ html {
   float: left;
   font-size: 22px;
   line-height: 22px;
-  font-weight: 600;
+  font-weight: bold;
   font-style: italic;
   background: radial-gradient(circle, var(--button-bg-start) 0%, var(--button-bg-end) 100%) center/cover no-repeat;
   box-shadow: 0px 5px 10px #79ce71 inset, 4px 0 8px var(--secondary-blue);
