@@ -149,18 +149,19 @@ html {
   color: var(--white-color);
   height: 100%;
   float: left;
-  font-size: 0px;
+  font-size: 17px;
   line-height: 22px;
   font-weight: 600;
   font-style: italic;
-  background: url('../assets/images/start.png') center/cover no-repeat;
+  background: url('../assets/images/start.png') center no-repeat;
+  background-size: auto; /* Ensure no scaling is applied */
   box-shadow: 0px 0px 0px #4d8646 inset, 0px 0px 0px #cefac9 inset;
-  padding: 2px 70px 6px 56px;
+  padding: 2px 70px 6px 26px;
   text-shadow: 1px 1px 3px var(--text-shadow-color);
   border-radius: 0px 8px 8px 0px;
   margin-right: 16px;
   cursor: pointer;
-  border: none;
+  border: none; /* Remove border if present */
 }
 
 .start-button img {
