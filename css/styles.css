@@ -17,7 +17,6 @@
 /* Global Styles */
 * {
   font-family: "Tahoma", monospace;
-  font-smooth: never;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -104,7 +103,6 @@ html {
 
 #network-container .window-body #activity-div {
   font-weight: 600;
-  font-smooth: never;
   margin: auto;
   text-align: center;
 }
@@ -118,7 +116,6 @@ html {
 
 #network-container #about {
   font-weight: 700;
-  font-smooth: never;
 }
 
 #network-container .buttons {
@@ -152,18 +149,18 @@ html {
   color: var(--white-color);
   height: 100%;
   float: left;
-  font-size: 22px;
-  font-smooth: never;
+  font-size: 0px;
   line-height: 22px;
-  font-weight: bold;
+  font-weight: 600;
   font-style: italic;
-  background: radial-gradient(circle, var(--button-bg-start) 0%, var(--button-bg-end) 100%) center/cover no-repeat;
-  box-shadow: 0px 5px 10px #79ce71 inset, 4px 0 8px var(--secondary-blue);
-  padding: 2px 25px 6px 10px;
+  background: url('../assets/images/start.png') center/cover no-repeat;
+  box-shadow: 0px 0px 0px #4d8646 inset, 0px 0px 0px #cefac9 inset;
+  padding: 2px 70px 6px 56px;
   text-shadow: 1px 1px 3px var(--text-shadow-color);
   border-radius: 0px 8px 8px 0px;
   margin-right: 16px;
   cursor: pointer;
+  border: none;
 }
 
 .start-button img {
@@ -187,7 +184,6 @@ html {
   background: url(../assets/images/btn1.png) no-repeat 0 0;
   border: 1px solid var(--border-color);
   border-radius: 2px;
-  font-smooth: never;
   font-family: Tahoma, monospace;
   font-size: 14px;
   line-height: 14px;
@@ -228,10 +224,10 @@ html {
     var(--highlight-color) 92%,
     var(--primary-dark-blue) 100%
   ) center/cover no-repeat;
-  box-shadow: 0px 5px 10px #14a5f0 inset, 0px 5px 10px #333333;
-  padding: 9px 15px 9px 25px;
+  box-shadow: 0px 4px 4px #7ac8ee inset;
+  font-family: 'Segoe UI', Tahoma;
+  padding: 9px 15px 9px 15px;
   border-left: 1px solid #092e51;
-  text-shadow: 1px 1px 2px var(--text-shadow-color);
   cursor: pointer;
   text-transform: uppercase;
   position: fixed;
