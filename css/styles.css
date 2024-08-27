@@ -17,6 +17,7 @@
 /* Global Styles */
 * {
   font-family: "Tahoma", monospace;
+  font-smooth: never;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -103,6 +104,7 @@ html {
 
 #network-container .window-body #activity-div {
   font-weight: 600;
+  font-smooth: never;
   margin: auto;
   text-align: center;
 }
@@ -116,6 +118,7 @@ html {
 
 #network-container #about {
   font-weight: 700;
+  font-smooth: never;
 }
 
 #network-container .buttons {
@@ -150,6 +153,7 @@ html {
   height: 100%;
   float: left;
   font-size: 22px;
+  font-smooth: never;
   line-height: 22px;
   font-weight: bold;
   font-style: italic;
@@ -183,6 +187,7 @@ html {
   background: url(../assets/images/btn1.png) no-repeat 0 0;
   border: 1px solid var(--border-color);
   border-radius: 2px;
+  font-smooth: never;
   font-family: Tahoma, monospace;
   font-size: 14px;
   line-height: 14px;
