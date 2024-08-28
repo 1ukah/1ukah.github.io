@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Lorem Ipsum"
-tags: tag1 tag2 tag3 tag4
+tags: tag5 tag6 tag7 tag8
 ---
 
 ## Lorem Ipsum
