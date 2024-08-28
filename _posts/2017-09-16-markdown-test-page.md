@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Markdown Test Page"
-folders: folder1 folder3
+tags: folder1 folder3
 ---
 
 ## Source: [Markdown Test Page](https://github.com/fullpipe/markdown-test-page)

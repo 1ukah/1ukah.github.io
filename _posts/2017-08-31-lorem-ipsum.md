@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Lorem Ipsum"
-folders: folder1 folder2 folder3 folder4
+tags: folder1 folder2 folder3 folder4
 ---
 
 ## Lorem Ipsum
